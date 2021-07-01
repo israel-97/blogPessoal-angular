@@ -1,1 +1,57 @@
-<p>inicio works!</p>
+<div class="container-fluid">
+
+    <div class="row bg-secondary d-flex align-items-center">
+        <div class="col-md-6">
+
+            <div class="row d-flex justify-content-center">
+                <div class="col-md-6 text-white">
+                    <h1 class="fs-54">Seja bem vindo(a)!</h1>
+                    <h5 class="fs-18">Expresse aqui os seus pensamentos e opiniões</h5>
+                </div>
+            </div>
+
+            <div class="row d-flex justify-content-center mt-3 mb-5">
+                <div class="col-md-6">
+                    <button class="btn btn bg-button text-dark me-2">Nova Postagens</button>
+                    <a class="btn btn-outline-light text-dark" href="#postagens">Ver Postagens</a>
+
+                </div>
+            </div>
+
+        </div>
+
+        <div class="col-md-6 d-flex justify-content-center">
+            <img src="https://i.imgur.com/UAd5Dsj.png" alt="" width="500px" height="500px">
+
+        </div>
+    </div>
+</div>
+
+
+<div class="container mb-5 mt-5" id="postagens">
+
+    <nav>
+        <div class="nav nav-tabs d-flex justify-content-center" id="nav-tab" role="tablist">
+
+          <button class="nav-link active text-secondary fw-bold" id="nav-todasPostagens-tab" data-bs-toggle="tab" data-bs-target="#todasPostagens" type="button" role="tab" aria-controls="nav-todasPostagens" aria-selected="true">Todas as Postagens</button>
+
+          <button class="nav-link text-secondary fw-bold" id="nav-minhasPostagens-tab" data-bs-toggle="tab" data-bs-target="#minhasPostagens" type="button" role="tab" aria-controls="nav-minhasPostagens" aria-selected="false">Minhas Postagens</button>
+
+          <button class="nav-link text-secondary fw-bold" id="nav-postagensTema-tab" data-bs-toggle="tab" data-bs-target="#postagensTema" type="button" role="tab" aria-controls="nav-postagensTema" aria-selected="false">Postagens por Tema</button>
+        </div>
+      </nav>
+
+      <div class="tab-content fw-bold" id="nav-tabContent">
+        <div class="tab-pane fade show active" id="todasPostagens" role="tabpanel" aria-labelledby="nav-todasPostagenstab">
+            Todas as Postagens
+        </div>
+
+        <div class="tab-pane fade fw-bold" id="minhasPostagens" role="tabpanel" aria-labelledby="nav-minhasPostagens-tab">
+            Minhas Postagens
+        </div>
+
+        <div class="tab-pane fade fw-bold" id="postagensTema" role="tabpanel" aria-labelledby="nav-postagensTema-tab">
+            Postagens por Tema
+        </div>
+      </div>
+</div>

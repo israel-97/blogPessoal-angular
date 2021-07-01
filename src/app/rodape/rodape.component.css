@@ -28,3 +28,8 @@ ul.social-network li {
     color: #007bb6
 }
 
+.bg-rodape {
+    
+    background-image: linear-gradient(#ffff, #70E09C, #2C9E5A, #156149 ) ;
+}
+
